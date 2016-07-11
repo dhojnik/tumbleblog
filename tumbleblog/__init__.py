@@ -3,8 +3,8 @@ from flask.ext.mongoengine import MongoEngine
 
 
 app = Flask(__name__)
-app.config["MONGODB_SETTINGS"] = {'DB': "tumble_blog", 'HOST': 'mongo1.webterrorist.net'}
-app.config["SECRET_KEY"] = "KeepThisS3cr3t"
+app.config["MONGODB_SETTINGS"] = {'DB': "tumble_blog", 'HOST': '10.1.0.7'}
+app.config["SECRET_KEY"] = "Loo2caiy7L"
 
 
 db = MongoEngine(app)
